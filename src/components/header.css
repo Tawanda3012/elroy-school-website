@@ -1,0 +1,39 @@
+.site-header {
+    background-color: #1a237e; /* Dark blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .site-header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .site-header nav ul li {
+    margin-right: 20px;
+  }
+  
+  .site-header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .read-more, .donate {
+    background-color: #ffeb3b; /* Yellow background color */
+    color: #1a237e; /* Dark blue text color */
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
