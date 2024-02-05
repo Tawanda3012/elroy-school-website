@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-function Home  ()  {
+function HomePage  ()  {
   return (
     <div>
       <h1>Welcome to Our School</h1>
@@ -16,4 +16,4 @@ function Home  ()  {
   );
 };
 
-export default Home;
+export default HomePage;

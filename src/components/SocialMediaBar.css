@@ -1,0 +1,29 @@
+/* SocialMediaBar.css */
+.social-media-bar {
+   /* Ensure the social media bar is above other elements */
+    background-color: #2A5276; /* Dark blue background color */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .social-media-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px; /* Adjust size as needed */
+    padding: 8px;
+  }
+  
+  .social-media-bar a:hover {
+    opacity: 0.7;
+  }
+  
+  .follow-us-text {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
