@@ -3,13 +3,21 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import './SocialMediaBar.css';
 
 const SocialMediaBar = () => {
+  const socialMediaLinks = [
+    { icon: <FaFacebook />, url: "https://www.facebook.com" },
+    { icon: <FaTwitter />, url: "https://www.twitter.com" },
+    { icon: <FaInstagram />, url: "https://www.instagram.com" },
+    // Add more social media links as needed
+  ];
+
   return (
     <div className="social-media-bar">
       <div className="follow-us-text">Follow us on Social Media</div>
-      <a href="https://www.facebook.com"><FaFacebook className="social-media-icon" /></a>
-      <a href="https://www.twitter.com"><FaTwitter className="social-media-icon" /></a>
-      <a href="https://www.instagram.com"><FaInstagram className="social-media-icon" /></a>
-      {/* Add more social media links as needed */}
+      {socialMediaLinks.map((link, index) => (
+        <a href={link.url} key={index}>
+          {link.icon}
+        </a>
+      ))}
     </div>
   );
 };

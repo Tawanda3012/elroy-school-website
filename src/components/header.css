@@ -2,14 +2,16 @@
 
 /* Base styles for the header */
 .site-header {
-  background-color: white; /* Dark blue background color */
-  color: black; /* White text color */
+  background-color: white;
+  color: black;
   padding: 10px 20px;
   display: flex;
-  justify-content: center; /* Space between the hamburger and navigation */
+  justify-content: center;
   align-items: center;
-  
-
+  border-bottom: 1px solid #efefef;
+  position: sticky;
+  top: 0;
+  transition: all 0.3s ease;
 }
 
 /* Navigation menu styling */
@@ -56,6 +58,7 @@
 }
 
 .donate{
+  border: none;
   background: #C73938;
     color: #ffffff;
   text-decoration: none;
@@ -78,6 +81,7 @@
   .site-header{
     justify-content: space-around;
     background-color: #002663;
+    z-index: 20000;
   }
 /* Simplified version of navigation menu styles without using display property */
 .site-header nav ul {
