@@ -1,13 +1,125 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.welcome-text{
+  background: #ebebeb;
+  padding: 40px 7%;
+ 
+}
+
+.welcome-text h1{
+	text-align: center;
+	font-size: 32pt;
+    line-height: 36pt;
+    margin: 15px 0;
+}
+
+.welcome-paragraph{
+	font-size: 11pt;
+    line-height: 16pt;
+    margin: 15px 0;
+    color: #666666;
+    font-weight: 400;
+	text-align: center;
+}
+
+/* .welcome-text p{
+	text-align: center;
+} */
+
+.welcome-text h1:after{
+	 
+		height: 7px;
+		width: 100px;
+		background: #4A8FD0;
+		content: " ";
+		display: block;
+		margin: 15px auto;
+}
+
+
+
+.welcome-icon{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.welcome-icon div {
+    background-color: #2A5276;
+    width: 22.75%;
+    height: 200px;
+    transition: .3s ease;
+	padding: 10px 10px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;  
+}
+
+.welcome-icon div .icon{
+	font-size: 73px;
+    color: white;
+}
+
+.welcome-icon div p{
+	font-size: 20pt;
+    line-height: 25pt;
+    margin: 15px 0;
+	color: white;
+}
+
+.welcome-icon div:hover {
+    
+   
+    background-color: #4A8FD0;
 }

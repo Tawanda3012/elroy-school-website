@@ -45,10 +45,12 @@ const DynamicSlider = () => {
     <div className="carousel-container">
       <Slider {...settings}>
         {images && images.map((image, index) => (
-          <div key={index}>
+          <div key={index} className='slider-body' >
             <img src={image} alt={`Slide ${index}`} />
+            <div className='slider-caption'>
             <p>{captions[index]}</p>
             <button className='cta-readmore'>Read More</button>
+            </div>
           </div>
         ))}
       </Slider>

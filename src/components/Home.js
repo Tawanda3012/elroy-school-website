@@ -2,10 +2,10 @@
 
 import React from 'react';
 
-const Homepage = () => {
+const Home = () => {
   return (
     <div>
-      <h1>Welcome to Our School</h1>
+      <h1>Welcome to Elroy Foundation School</h1>
       <p>
         We are dedicated to providing a supportive and inclusive learning environment for our students.
       </p>
@@ -16,4 +16,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Home;
