@@ -20,19 +20,27 @@ function HomePage() {
         </p>
         <div className="welcome-icon">
           <div>
-            <FaUserGraduate  className="icon" /> 
+           <a href="enroll-link">
+           <FaUserGraduate  className="icon" /> 
+           </a>
             <p>Enroll</p>
           </div>
           <div>
-            <FaChalkboardTeacher  className="icon" /> 
+           <a href="teacher-icon">
+           <FaChalkboardTeacher  className="icon" /> 
+           </a>
             <p>Teacher</p>
           </div>
           <div>
+            <a href="support-icon" >
             <FaHandsHelping  className="icon" /> 
+            </a>
             <p>Support</p>
           </div>
           <div>
-            <FaChartLine  className="icon" />
+          <a href="gorow-icon">
+          <FaChartLine  className="icon" />
+          </a>
             <p>Grow</p>
           </div>
         </div>
