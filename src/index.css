@@ -123,3 +123,15 @@ table {
    
     background-color: #4A8FD0;
 }
+
+@media (max-width: 768px){
+	.welcome-icon{
+		flex-direction: column;
+		justify-content: center;
+        align-items: center;
+	}
+	.welcome-icon div{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}

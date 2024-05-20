@@ -1,0 +1,46 @@
+.chosen{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem
+}
+
+.chosen h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.chosen-svg{
+    display: flex;
+}
+
+.svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.svg-title{
+    flex: 1 1 auto;
+    padding: 16px;
+    width: 60%;
+}
+
+.svg-title h2{
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+}
+
+.svg-title p{
+    line-height: 20px;
+}
+
+
+@media (max-width: 768px){
+    .chosen-svg{
+        flex-direction: column;
+    }
+}

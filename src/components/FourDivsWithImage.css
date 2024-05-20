@@ -1,0 +1,92 @@
+.conta {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .image-container:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+
+  .r{
+    display: flex;
+  }
+  
+
+  /* Define background images for each image-container */
+.image-container:nth-child(1) {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../images/about-us-section-img.jpg');
+    /* width: 100%; */
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+
+  }
+  
+  .image-container:nth-child(2) {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../images/sport-course.jpg');
+    /* width: 100%; */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+  }
+
+  
+  .image-container:nth-child(3) {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../images/blog4-img.jpg');
+    /* width: 100%; */
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .image-container:nth-child(4) {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url('../images/blog6-img.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+
+
+  }
+
+  .image-container p {
+     text-transform: capitalize;
+     font-size: 1rem;
+  }

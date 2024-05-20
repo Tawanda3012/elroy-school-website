@@ -31,9 +31,9 @@ const Header = () => {
           <li><Link to="/about" onClick={closeMenu}>ABOUT</Link></li>
           <li><Link to="/instruction" onClick={closeMenu}>INSTRUCTION</Link></li>
           <li><Link to="/resources" onClick={closeMenu}>RESOURCES</Link></li>
-          <li><Link to="/NewsEventsPage" onClick={closeMenu}>NewsEventsPage</Link></li>
-          <li><Link to="/AdmissionsPage" onClick={closeMenu}>ENROLL</Link></li>
-          <li><Link to="/ContactPage" onClick={closeMenu}>CONTACT</Link></li>
+          <li><Link to="/news" onClick={closeMenu}>NewsEventsPage</Link></li>
+          <li><Link to="/admissions" onClick={closeMenu}>ENROLL</Link></li>
+          <li><Link to="/contact" onClick={closeMenu}>CONTACT</Link></li>
         </ul>
       </nav>
       {/* Call to Action buttons */}
