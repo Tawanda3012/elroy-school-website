@@ -26,6 +26,7 @@ function App() {
               <Header />
               <Hero />
               <Homepage />
+             
             </div>
           }
         />

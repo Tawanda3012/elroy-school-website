@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./School.css";
 import { MdArticle } from "react-icons/md";
 import { BsBookHalf } from "react-icons/bs";
@@ -19,7 +20,14 @@ const School = () => (
             <p>Elroy</p>
           </div>
           <img src={Teacch} alt="imagehh" className="simage" />
-          <button className="btn btn-primary">Learn</button>
+          <Link to="/resources" className="hero-link">
+            <button
+              type="button"
+              className="btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0"
+            >
+              LEARN
+            </button>
+          </Link>
         </div>
         <div className="school__info">
           <Learn
