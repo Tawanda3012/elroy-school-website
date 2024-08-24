@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import NotFoundPage from "./pages/NotFoundPage";
-import Homepage from "./pages/Homepage";
+// import Homepage from "./pages/Homepage";
 import AboutUsPage from "./pages/AboutUsPage";
 import SocialMediaBar from "./components/SocialMediaBar";
 import Header from "./components/Header";
@@ -10,8 +11,9 @@ import AdmissionPage from "./pages/AdmissionPage";
 import InstructionPage from "./pages/InstructionPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import NewsEventsPage from "./pages/NewsEventsPage";
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -24,8 +26,8 @@ function App() {
             <div>
               <SocialMediaBar />
               <Header />
-              <Hero />
-              <Homepage />
+              {/* <Hero />
+              <Homepage /> */}
              
             </div>
           }

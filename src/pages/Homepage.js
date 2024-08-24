@@ -1,14 +1,9 @@
 import React from "react";
-// import {
-//   FaUserGraduate,
-//   FaChalkboardTeacher,
-//   FaHandsHelping,
-//   FaChartLine,
-// } from "react-icons/fa";
+
 import "./HomePage.css"
 import FourDivsWithImage from "../components/FourDivsWithImage";
 import School from "../components/school/School";
-// import Instructors from "../components/Instructors";
+import Testimonials from "../components/Testimonials";
 
 function HomePage() {
   return (
@@ -90,6 +85,7 @@ function HomePage() {
       </div>
 
       <FourDivsWithImage/>
+      <Testimonials />
      
     </div>
   );
